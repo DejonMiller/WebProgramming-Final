@@ -4,8 +4,6 @@ require 'path-to-stripe.php';
 //When an item is bought, then user will be redirected to this page. The card is not kepts on the sql server or on local files. Information is passed through tokens and sent to stripe.com 
 
 //Test card number 4242424242424242  Visa
-// Set your secret key: remember to change this to your live secret key in production
-// See your keys here: https://dashboard.stripe.com/account/apikeys
 Stripe::setApiKey("sk_test_bRBLnLjGzNCX3jPfjoZPzATG");
 
 // Get the credit card details submitted by the form
